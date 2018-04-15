@@ -1,0 +1,145 @@
+button {
+	outline: none;
+}
+
+a { 
+    text-decoration: none;
+   }
+
+body {
+	background-color: #DFE9ED;
+}
+
+#p1 {
+	font-family: Arial;
+	font-size: 12px;
+}
+
+#p2 {
+	font-family: Arial;
+	font-size: 10px;
+	float: left;
+}
+
+.p3 {
+	font-family: Arial Black;
+}
+
+.p4 {
+	font-family: Arial;
+	font-variant: small-caps;
+	color: #ffffff;
+}
+
+.p4:hover {
+	font-weight: 600;
+}
+
+#p5 {
+	font-family: Arial Black;
+	font-size: 30px;
+}
+
+#h1 {
+	font-size: 22px;
+}
+
+#h2 {
+	font-size: 12px;
+}
+
+#h3 {
+	font-family: Arial Black;
+	font-size: 20px;
+}
+
+#header {
+	transform: translate(0px, -40px);
+	transition: 0.5s all;
+	background-color: #FF4A4A;
+	color: white;
+	padding: 10px;
+	box-shadow: 0px 0px 2px #000000;
+}
+
+#header:hover {
+	transform: translate(0px, 0px);
+	background-color: #FF4A4A;
+	color: white;
+	padding: 10px;
+	box-shadow: 0px 0px 2px #000000;
+}
+
+#sidebar1 {
+	font-family: Arial Black;
+	background-color: #FF4A4A;
+	color: white;
+	padding: 10px;
+	padding-bottom: 30%;
+	margin-top: 1%;
+	margin-left: 75%;
+	box-shadow: 0px 0px 3px #000000;
+}
+
+#content {
+	background-color: #EDEDED;
+	padding: 10px;
+	padding-bottom: 750px;
+	padding-right: 47%;
+	margin-top: 1%;
+	float: left;
+	box-shadow: 0px 0px 3px #000000;
+}
+
+#enter {
+	background-color: #ffffff;
+	font-family: Arial Black;
+	color: #FF4A4A;
+	border: 2px solid #ffffff;
+	border-radius: 2px;
+	margin-right: 1%;
+	float: right;
+}
+
+#registration {
+	background-color: #ffffff;
+	font-family: Arial Black;
+	color: #FF4A4A;
+	border: 2px solid #ffffff;
+	border-radius: 2px;
+	float: right;
+}
+
+#enter:hover {
+	color: #EA0000;
+}
+
+#registration:hover {
+	color: #EA0000;
+}
+
+.button1 {
+	transform: scale(1.0);
+	transition: 0.3s all;
+	background-color: #FF7171;
+	color: white;
+	padding: 10px;
+	padding-left: 25%;
+	padding-right: 30%;
+	margin-left: 15%;
+	margin-right: 15%;
+	border: 3px solid #D33838;
+	border-radius: 30px;
+	text-align: center;
+	font-size: 12px;
+	font-family: Arial Black;
+	float: center;
+}
+
+.button1:active {
+	transform: scale(0.8);
+}
+  
+.url {
+	color: #ffffff
+}
